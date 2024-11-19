@@ -52,3 +52,13 @@ code {
     transform: rotate(360deg);
   }
 }
+
+#root {
+  margin: 0 auto;
+}
+
+#root button {
+  margin: 4px;
+  padding: 0.4em 0.8em;
+  background-color: #f0f0f0;
+}

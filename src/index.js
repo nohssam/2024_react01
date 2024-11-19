@@ -23,6 +23,10 @@ import CardList3 from './components/step10/CardList3';
 
 import reportWebVitals from './reportWebVitals';
 import NumberCounter from './components/step10/NumberCounter';
+import NumberCounter02 from './components/step11/NumberCounter02';
+import NumberCounter03 from './components/step11/NumberCounter03';
+import TestInput from './components/step12/TestInput';
+import CountEx from './components/step13/CountEx';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -87,8 +91,17 @@ root.render(
 
     {/* step10 */}
     {/* <CardList3 items={items} /> */}
-    <NumberCounter />
+    {/* <NumberCounter /> */}
 
+    {/* step11 */}
+    {/* <NumberCounter02 /> */}
+    {/* <NumberCounter03 /> */}
+
+    {/* step11 */}
+    {/* <TestInput /> */}
+
+    {/* step12 */}
+    <CountEx />
   </React.StrictMode>
 );
 reportWebVitals();

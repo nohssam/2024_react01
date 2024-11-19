@@ -27,6 +27,11 @@ import NumberCounter02 from './components/step11/NumberCounter02';
 import NumberCounter03 from './components/step11/NumberCounter03';
 import TestInput from './components/step12/TestInput';
 import CountEx from './components/step13/CountEx';
+import Pinn from './components/step13/Pinn';
+import TodoList from './components/step14/TodoList';
+import ProFileEx from './components/step15/ProFileEx';
+import UniSelectorEx from './components/step16/UniSelectorEx';
+import FormEx from './components/step17/FormEx';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -97,11 +102,24 @@ root.render(
     {/* <NumberCounter02 /> */}
     {/* <NumberCounter03 /> */}
 
-    {/* step11 */}
+    {/* step12 */}
     {/* <TestInput /> */}
 
-    {/* step12 */}
-    <CountEx />
+    {/* step13 */}
+    {/* <CountEx /> */}
+    {/* <Pinn /> */}
+
+    {/* step14 */}
+    {/* <TodoList/>  */}
+
+    {/* step15 */}
+    {/* <ProFileEx /> */}
+
+    {/* step16 */}
+    {/* <UniSelectorEx /> */}
+
+     <FormEx /> 
+
   </React.StrictMode>
 );
 reportWebVitals();

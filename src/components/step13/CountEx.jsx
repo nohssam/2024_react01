@@ -3,12 +3,12 @@ import React, { useState } from 'react';
 
 function CountEx(props) {
 
-  let count = 0
-  const setCount = (num) => {
-    count = num;
-    console.log(count);
-  }
-  // const [count, setCount] = useState(5)
+  // let count = 0
+  // const setCount = (num) => {
+  //   count = num;
+  //   console.log(count);
+  // }
+  const [count, setCount] = useState(5)
   return (
     <div>
       <h2>Count : {count} </h2>

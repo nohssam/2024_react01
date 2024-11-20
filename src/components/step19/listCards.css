@@ -1,0 +1,50 @@
+.custom-card {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  width: 600px;
+  /* 너비를 넓힘 */
+  margin: 50px auto;
+  /* 가운데 정렬 */
+}
+
+.card__header {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.card__body {
+  padding-top: 1.5rem;
+}
+
+.courses {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.course {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.course__img {
+  border-radius: 6px;
+  width: 120px;
+}
+
+.course__title {
+  font-weight: 500;
+}
+
+.course__body {
+  flex-grow: 1;
+}
+
+.course__description {
+  color: #777777;
+  font-weight: 300;
+  margin-top: 0.4rem;
+}

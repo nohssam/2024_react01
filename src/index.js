@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import './App.css';
 
 import App from './App';
 import Header from './components/step01/Header';
@@ -32,29 +31,40 @@ import TodoList from './components/step14/TodoList';
 import ProFileEx from './components/step15/ProFileEx';
 import UniSelectorEx from './components/step16/UniSelectorEx';
 import FormEx from './components/step17/FormEx';
+import ListCards from './components/step18/ListCards';
+import ListCards2Ex from './components/step18/ListCards2Ex';
+import ListCards3 from './components/step19/ListCards3';
+import ListCard3Ex from './components/step19/ListCard3Ex';
+import EffectTest01 from './components/step20/EffectTest01';
+import EffectTest02 from './components/step20/EffectTest02';
+import EffectTest03 from './components/step20/EffectTest03';
+import EffectTest04 from './components/step20/EffectTest04';
+import EffectTest05 from './components/step20/EffectTest05';
+import MemoTest01 from './components/step21/MemoTest01';
+import MemoTest04 from './components/step21/MemoTest04';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-const items = [
-  {
-    title: '입문자를 위한, HTML&CSS 웹 개발 입문',
-    description: '웹 개발에 필요한 기본 지식을 배웁니다.',
-    image: './img/tree-1.jpg',
-    isFavorite: true
-  },
-  {
-    title: '입문자를 위한, ES6+ 최신 자바스크립트 입문',
-    description: '쉽고! 알찬! 내용을 준비했습니다.',
-    image: './img/tree-2.jpg',
-    isFavorite: false
-  },
-  {
-    title: '포트폴리오 사이트 만들고 배포까지!',
-    description: '포트폴리오 사이트를 만들고 배포해 보세요.',
-    image: './img/tree-3.jpg',
-    isFavorite: true
-  }
-]
+// const items = [
+//   {
+//     title: '입문자를 위한, HTML&CSS 웹 개발 입문',
+//     description: '웹 개발에 필요한 기본 지식을 배웁니다.',
+//     image: './img/tree-1.jpg',
+//     isFavorite: true
+//   },
+//   {
+//     title: '입문자를 위한, ES6+ 최신 자바스크립트 입문',
+//     description: '쉽고! 알찬! 내용을 준비했습니다.',
+//     image: './img/tree-2.jpg',
+//     isFavorite: false
+//   },
+//   {
+//     title: '포트폴리오 사이트 만들고 배포까지!',
+//     description: '포트폴리오 사이트를 만들고 배포해 보세요.',
+//     image: './img/tree-3.jpg',
+//     isFavorite: true
+//   }
+// ]
 root.render(
   <React.StrictMode>
     {/* <App /> */}
@@ -118,7 +128,21 @@ root.render(
     {/* step16 */}
     {/* <UniSelectorEx /> */}
 
-     <FormEx /> 
+    {/* <FormEx />  */}
+
+    {/* <ListCards /> */}
+    {/* <ListCards2Ex /> */}
+    {/* <ListCard3Ex /> */}
+
+    {/* <EffectTest01 /> */}
+    {/* <EffectTest02 /> */}
+    {/* <EffectTest03 /> */}
+    {/* <EffectTest04 /> */}
+    {/* <EffectTest05 /> */}
+
+    {/* <MemoTest01 /> */}
+    <MemoTest04 />
+
 
   </React.StrictMode>
 );

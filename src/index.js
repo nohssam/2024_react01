@@ -47,6 +47,10 @@ import CallBackTest02 from './components/step20/CallBackTest02';
 import RefTest01 from './components/step21/RefTest01';
 import RefTest02 from './components/step21/RefTest02';
 import RefTest03 from './components/step21/RefTest03';
+import RefTest04 from './components/step21/RefTest04';
+import ContextTest from './components/step22/ContextTest';
+import UseIdTest from './components/step23/UseIdTest';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -72,6 +76,6 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 // ]
 root.render(
 
-  <RefTest03 />
+  <UseIdTest />
 );
 reportWebVitals();

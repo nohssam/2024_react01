@@ -31,17 +31,22 @@ import TodoList from './components/step14/TodoList';
 import ProFileEx from './components/step15/ProFileEx';
 import UniSelectorEx from './components/step16/UniSelectorEx';
 import FormEx from './components/step17/FormEx';
-import ListCards from './components/step18/ListCards';
-import ListCards2Ex from './components/step18/ListCards2Ex';
-import ListCards3 from './components/step19/ListCards3';
-import ListCard3Ex from './components/step19/ListCard3Ex';
-import EffectTest01 from './components/step20/EffectTest01';
-import EffectTest02 from './components/step20/EffectTest02';
-import EffectTest03 from './components/step20/EffectTest03';
-import EffectTest04 from './components/step20/EffectTest04';
-import EffectTest05 from './components/step20/EffectTest05';
-import MemoTest01 from './components/step21/MemoTest01';
-import MemoTest04 from './components/step21/MemoTest04';
+import EffectTest01 from './components/step18/EffectTest01';
+import EffectTest02 from './components/step18/EffectTest02';
+import EffectTest03 from './components/step18/EffectTest03';
+import EffectTest04 from './components/step18/EffectTest04';
+import EffectTest05 from './components/step18/EffectTest05';
+import MemoTest01 from './components/step19/MemoTest01';
+import MemoTest02 from './components/step19/MemoTest02';
+import MemoTest03 from './components/step19/MemoTest03';
+import MemoTest04 from './components/step19/MemoTest04';
+import MemoTest05 from './components/step19/MemoTest04';
+import MemoTest06 from './components/step19/MemoTest05';
+import CallBackTest01 from './components/step20/CallBackTest01';
+import CallBackTest02 from './components/step20/CallBackTest02';
+import RefTest01 from './components/step21/RefTest01';
+import RefTest02 from './components/step21/RefTest02';
+import RefTest03 from './components/step21/RefTest03';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -66,84 +71,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 //   }
 // ]
 root.render(
-  <React.StrictMode>
-    {/* <App /> */}
 
-    {/* step01 */}
-    {/* <Test /> */}
-
-    {/* step01    
-    <Header />
-    <Main />
-    <Footer /> */}
-
-    {/* step02 */}
-    {/* <CardList /> */}
-
-    {/* step03 */}
-    {/* <CardList2 /> */}
-
-    {/* step04 */}
-    {/* <Library /> */}
-
-    {/* step05 */}
-    {/* <Profile /> */}
-
-    {/* step06 */}
-    {/* <CommentList /> */}
-
-    {/* step07 */}
-    {/* <PackingList /> */}
-
-    {/* step08 */}
-    {/* <TextList /> */}
-    {/* <TextList2 /> */}
-    {/* <TextList3 /> */}
-
-    {/* step09 */}
-    {/* <Event01 /> */}
-    {/* <Event02 /> */}
-
-    {/* step10 */}
-    {/* <CardList3 items={items} /> */}
-    {/* <NumberCounter /> */}
-
-    {/* step11 */}
-    {/* <NumberCounter02 /> */}
-    {/* <NumberCounter03 /> */}
-
-    {/* step12 */}
-    {/* <TestInput /> */}
-
-    {/* step13 */}
-    {/* <CountEx /> */}
-    {/* <Pinn /> */}
-
-    {/* step14 */}
-    {/* <TodoList/>  */}
-
-    {/* step15 */}
-    {/* <ProFileEx /> */}
-
-    {/* step16 */}
-    {/* <UniSelectorEx /> */}
-
-    {/* <FormEx />  */}
-
-    {/* <ListCards /> */}
-    {/* <ListCards2Ex /> */}
-    {/* <ListCard3Ex /> */}
-
-    {/* <EffectTest01 /> */}
-    {/* <EffectTest02 /> */}
-    {/* <EffectTest03 /> */}
-    {/* <EffectTest04 /> */}
-    {/* <EffectTest05 /> */}
-
-    {/* <MemoTest01 /> */}
-    <MemoTest04 />
-
-
-  </React.StrictMode>
+  <RefTest03 />
 );
 reportWebVitals();

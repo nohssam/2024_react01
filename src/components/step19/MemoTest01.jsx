@@ -27,7 +27,7 @@ function MemoTest01(props) {
     <div>
       <h1>useMemo Example</h1>
       <p>Expensive Value: {expensiveValue}</p>
-      <p>Typed Text: {text}</p> {/* 텍스트 상태 값 출력 */}
+      <p>Typed Text: {text}</p>   텍스트 상태 값 출력
       <button onClick={() => setCount((prev) => prev + 1)}>Increment Count</button>
       <input
         type="text"

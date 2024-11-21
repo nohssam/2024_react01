@@ -8,8 +8,8 @@ function NumberCounter02(props) {
   }
   return (
     <div>
-      {/* <button onClick={handleClick}>Button1</button>
-          <button onClick={() => { console.log('Event2') }}>Button2</button> */}
+      <button onClick={handleClick}>Button1</button>
+      <button onClick={() => { console.log('Event2') }}>Button2</button>
       <br /> <br />
       <Button variant="contained" onClick={handleClick}>버튼 1 </Button> <br /> <br />
       <Button variant="outlined" onClick={() => { console.log('Event2') }}>버튼 2 </Button>

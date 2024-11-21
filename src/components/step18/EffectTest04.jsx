@@ -26,11 +26,11 @@ function EffectTest04(props) {
   return (
     <div>
       <h1>useState와 useEffect 비교</h1>
-      {/* count 상태 변경 */}
+      count 상태 변경
       <p>Count: {count}</p>
       <button onClick={() => setCount(count + 1)}>Count 증가</button>
 
-      {/* 텍스트 입력 */}
+      텍스트 입력
       <p>텍스트 입력: {text}</p>
       <input
         type="text"

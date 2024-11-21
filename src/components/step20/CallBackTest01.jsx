@@ -23,7 +23,7 @@ function CallBackTest01(props) {
     console.log("렌더링");
     return (
         <div>
-            {/* Light는 자식 컨포넌트 */}
+            Light는 자식 컨포넌트
             <Light room="침실" on={masterOn} toggle={toggleMaster} />
             <Light room="주방" on={kitchenOn} toggle={toggleKitchen} />
             <Light room="욕실" on={bathOn} toggle={toggleBath} />

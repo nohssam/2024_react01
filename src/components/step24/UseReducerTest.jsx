@@ -1,6 +1,8 @@
 import React, { useReducer, useState } from 'react';
 
 // reducer - state를 업데이트하는 함수
+// dispatch - state 업데이트를 위한 요구
+// action - 요구의 내용
 const reducer = (state, action) => {
   console.log('reducer 실행 전 상태:', state);
   switch (action.type) {

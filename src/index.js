@@ -50,6 +50,7 @@ import RefTest03 from './components/step21/RefTest03';
 import RefTest04 from './components/step21/RefTest04';
 import ContextTest from './components/step22/ContextTest';
 import UseIdTest from './components/step23/UseIdTest';
+import UseReducerTest from './components/step24/UseReducerTest';
 
 
 
@@ -76,6 +77,6 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 // ]
 root.render(
 
-  <UseIdTest />
+  <RefTest04 />
 );
 reportWebVitals();

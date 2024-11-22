@@ -17,7 +17,7 @@ const reducer = (state, action) => {
   }
 };
 
-function UseReducerTest() {
+function ReducerTest01() {
   const [number, setNumber] = useState(0);
   const [money, dispatch] = useReducer(reducer, 0);
 
@@ -58,4 +58,4 @@ function UseReducerTest() {
   );
 }
 
-export default UseReducerTest;
+export default ReducerTest01;

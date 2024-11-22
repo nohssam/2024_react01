@@ -11,11 +11,11 @@ function ContextTest(props) {
 
     // <Page isDark={isDark} setIsDark={setIsDark} />
 
-      <UserContext.Provider value={"사용자"}>
-        <ThemeContext.Provider value={{isDark, setIsDark}}>
-            <Page />
-        </ThemeContext.Provider>
-      </UserContext.Provider>
+    <UserContext.Provider value={"사용자"}>
+      <ThemeContext.Provider value={{ isDark, setIsDark }}>
+        <Page />
+      </ThemeContext.Provider>
+    </UserContext.Provider>
   );
 }
 

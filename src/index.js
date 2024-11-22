@@ -48,8 +48,8 @@ import RefTest01 from './components/step21/RefTest01';
 import RefTest02 from './components/step21/RefTest02';
 import RefTest03 from './components/step21/RefTest03';
 import RefTest04 from './components/step21/RefTest04';
-import ContextTest from './components/step22/ContextTest';
-import UseIdTest from './components/step23/UseIdTest';
+import UseIdTest from './components/step22/UseIdTest';
+import UseIdTest2 from './components/step22/UseIdTest2';
 import UseReducerTest from './components/step24/UseReducerTest';
 
 
@@ -77,6 +77,6 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 // ]
 root.render(
 
-  <RefTest04 />
+  <UseReducerTest />
 );
 reportWebVitals();

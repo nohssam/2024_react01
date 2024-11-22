@@ -27,12 +27,12 @@ import { ThemeContext } from '../../context/ThemeContext';
 //   );
 // };
 
-const Page = () =>{
-  return(
+const Page = () => {
+  return (
     <div className='page'>
-      <Header  />
-      <Content  />
-      <Footer  />
+      <Header />
+      <Content />
+      <Footer />
     </div>
   );
 };
